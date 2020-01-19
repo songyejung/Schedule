@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="kr" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>정보처리기사 Schedule</title>
+  <style>
+    table,
+    tr,
+    td {
+      border: 1px solid #333;
+      padding: 5px;
+    }
+  </style>
+</head>
+
+<body>
+  <h1 align="center"><a href="index.html">Just Do it!</a></h1>
+  <h2 align="center" style="color: red">조급하게 생각하지말고 현재에 할 수 있는 것에 충실하자!</h2>
+<br>
+  <h3>공부 과목</h3>
+  <ol>
+    <li> <a href="1.html">정보처리기사 자격증</a></li>
+    <ul>
+      <li> 정보처리기사 필기</li>
+      <li> 정보처리기사 실기</li>
+    </ul>
+    <li> <a href="2.html">WEB</a></li>
+    <ul>
+      <li> WEB01 HTML & INTERNET</li>
+      <li> WEB02 CSS</li>
+      <li> WEB03 JavaScript</li>
+    </ul>
+  </ol>
+<br>
+<br>
+  <h3>정보처리기사 진도표</h3>
+  <!-- 탭 만들기 정처기, 웹-->
+  <p>
+    <table id="schedule" border="1" bordercolor="gray" style="margin: 1px">
+      <caption></caption>
+      <colgroup>
+        <col class="num" width="10%">
+        <col class="title" width="20%">
+        <col class="date" width="5%">
+        <col class="contents" width="40%">
+        <col class="etc" width="30%">
+      </colgroup>
+      <thead>
+        <tr bgcolor="lightgray" align="center" style="margin: 1px">
+          <th scope="col">순번</th>
+          <th scope="col">강의명</th>
+          <th scope="col">공부일</th>
+          <th scope="col">공부일지</th>
+          <th scope="col">비고</th>
+        </tr>
+      </thead>
+      <tbody id="schedule_body">
+        <tr align="center" style="margin: 1px">
+          <td>1일차</td>
+          <td><a href="https://opentutorials.org/course/3084" target="_self">수업소개부터</a> ~ <a href="https://opentutorials.org/course/3084/18448" target="_blank" title="생활코딩 강의">실습환경 준비 까지</a></td>
+          <td><input type="date" name="date" value=""></td>
+          <td><input type="text" name="" value="" width="40%" onchange="alert('입력')"></td>
+          <td><input type="text" name="" value=""></td>
+        </tr>
+        <tr>
+          <td>2일차</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>3일차</td>
+          <td>&nbsp;</td>
+          <td>30%</td>
+          <td>&nbsp;</td>
+        </tr>
+
+        <tr>
+          <td>3일차</td>
+          <td>&nbsp;</td>
+          <td>30%</td>
+        </tr>
+
+        <tr>
+          <td>4일차</td>
+          <td>&nbsp;</td>
+          <td>30%</td>
+        </tr>
+
+        <tr>
+          <td>5일차</td>
+          <td>&nbsp;</td>
+          <td>30%</td>
+        </tr>
+
+        <tr>
+          <td>6일차</td>
+          <td>&nbsp;</td>
+          <td>30%</td>
+        </tr>
+
+        <tr>
+          <td>7일차</td>
+          <td>&nbsp;</td>
+          <td>30%</td>
+        </tr>
+
+        <tr>
+          <td>8일차</td>
+          <td>&nbsp;</td>
+          <td>30%</td>
+        </tr>
+
+        <tr>
+          <td>9일차</td>
+          <td>&nbsp;</td>
+          <td>30%</td>
+        </tr>
+
+        <tr>
+          <td>10일차</td>
+          <td>&nbsp;</td>
+          <td>30%</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr align="center" style="margin:3">
+          <td colspan="6"><input type="button" value="저장" onclick="alert('저장됐습니다')"></td>
+        </tr>
+      </tfoot>
+    </table>
+  </p>
+</body>
+
+</html>
